@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('../fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Futura-Bold.woff') format('woff'), url('../fonts/Futura-Bold.ttf')  format('truetype'), url('../fonts/Futura-Bold.svg#Futura-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FuturaBT-Bold';
+  src: url('../fonts/FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
+	  url('../fonts/FuturaBT-Bold.woff') format('woff'),
+	  url('../fonts/FuturaBT-Bold.ttf')  format('truetype'),
+	  url('../fonts/FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face 
+{
+	  font-family: 'FuturaBT-Medium';
+	  src: url('../fonts/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+		   url('../fonts/FuturaBT-Medium.woff') format('woff'), 
+	       url('../fonts/FuturaBT-Medium.ttf')  format('truetype'), 
+	       url('../fonts/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+}
+.mvp_wcc
+{
+ width:24.5%;
+ background-image:url("../img/bg.png");
+ background-size:100% 100%;
+ background-repeat:no-repeat;
+}
+.mvp_w_orall
+{
+	background-image:url("../img/red_header.png");
+	background-size:100% 100%;
+}
+.mvp_widget_right
+{
+	right: 27px;
+	position: relative;
+	padding-top: 10px;
+}
+
+.mvp_widget_m h4
+{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'FuturaBT-Medium';
+	font-weight: bold;
+}
+.mvp_team_cc.col-md-3, .mvp_team_cc.col-sm-3, .mvp_team_cc .col-xs-3, .mvp_team_cc .col-lg-3 {
+    width: 20% !important;
+	padding-right: 0px;
+	padding-left: 4px;
+}
+.mvp_team_cc figure figcaption {
+    font-family: 'FuturaBT-Medium';
+    color: #fff;
+    font-weight: bold;
+    font-size:11px;
+    text-transform: uppercase;
+    height:45px;
+}
+.mvp_team_cc figure img {
+    margin-bottom: 20px;
+	padding-top: 14px;
+}
+.mvp_medium_bg {
+    background-image: url("../img/medium.png");
+    background-size: 100% 100%;
+    height:255px;
+   
+}
+.mvp_light_bg {
+    background-image: url("../img/light.png");
+    background-size: 100% 100%;
+    height:255px;
+   
+}
+.main_fig {
+    font-family:'FuturaBT-Bold' !important;
+	font-size:12px !important;
+}
+.mvp_pad_c
+{
+	padding-left:0px !important;
+}
+.mvp_medium_bg figure h3, .mvp_team_cc figure h3 {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'FuturaBT-Bold';
+    font-size:17px;
+    text-transform: uppercase;
+    height:45px;
+}
+.mvp_medium_bg figure h4, .mvp_team_cc figure h4 {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'FuturaBT-Bold';
+    font-size:9px;
+    text-transform: uppercase;
+}
+@media screen and (min-width:320px) and (max-width:649px)
+{
+	.mvp_wcc
+	{
+		width:100%;
+		margin:0px;
+	}
+}
+@media screen and (min-width:650px) and (max-width:1023px)
+{
+	.mvp_wcc
+	{
+		width:100%;
+		margin:0px;
+	}
+}
